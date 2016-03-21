@@ -22,7 +22,7 @@ public class HibernateAnnotations implements Serializable {
 	private String LNAME;
 	@Column(name = "FNAME")
 	private String FNAME;
-	@Column(name = "EMAIL")
+	@Column(name = "EMAIL") 
 	private String EMAIL;
 	@Column(name = "ADDRESS")
 	private String ADDRESS;
