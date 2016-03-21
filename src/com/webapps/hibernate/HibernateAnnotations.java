@@ -15,7 +15,7 @@ import javax.persistence.TableGenerator;
 @Entity
 @Table(name = "userdetails")
 public class HibernateAnnotations implements Serializable {
-	@Id
+	@Id 
 	@Column(name = "SID")
 	private Integer SID;
 	@Column(name = "LNAME")
