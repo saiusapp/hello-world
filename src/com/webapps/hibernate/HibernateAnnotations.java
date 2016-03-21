@@ -37,6 +37,7 @@ public class HibernateAnnotations implements Serializable {
 	public String getLNAME() {
 		return LNAME;
 	}
+	// Added comments for the second time.
 	public void setLNAME(String lNAME) {
 		LNAME = lNAME;
 	}
