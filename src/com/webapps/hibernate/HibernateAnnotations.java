@@ -27,7 +27,7 @@ public class HibernateAnnotations implements Serializable {
 	@Column(name = "ADDRESS")
 	private String ADDRESS;
 	
-	
+	// Comments added for first time
 	public Integer getSID() {
 		return SID;
 	}
